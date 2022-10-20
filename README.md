@@ -1,6 +1,9 @@
 # Spring Boot - Cheatsheet
 This repository is a collection of Spring boot code snippes to help with implementation of logic.
 
+## Maven repository
+[Maven repository](https://mvnrepository.com), used for fetching the latest dependency.
+
 ## Application`.properties` to `.yaml`
 1. Navigate to resource directory.
 2. Change `application.properties` to `application.yaml`.
