@@ -10,3 +10,24 @@ This repository is a collection of Spring boot code snippes to help with impleme
 2. Enter your text in the text box.
 3. Create a `banner.txt` file in resource directory.
 4. Copy content to `banner.txt`.
+
+## Web
+Under this section will be a collection of code snippets for developing web project.
+
+### RESTful API
+```java
+@RestController
+@RequestMapping(path = "")
+public class Controller {
+    
+    // TOOD add content
+    
+}
+```
+GET endpoint snippet.
+```java
+@GetMapping(path = "")
+public Object methodName() {
+    return object;
+}
+```
