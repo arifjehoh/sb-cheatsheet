@@ -34,3 +34,28 @@ public Object methodName() {
     return object;
 }
 ```
+
+#### For when the endpoints get to repetitive
+```java
+public final class PathConstants {
+    public final static String API = "/api";
+    public final static String API_FOO = "/api/foo";
+    
+    public final static String FOO = "/foo";
+    public final static String FOO_TAR = "/foo/tar";
+}
+```
+```java
+@RequestMapping(path = PathConstants.API + "/bar")
+public class APIBarController {
+
+}
+
+@RequestMapping(path = PathConstants.FOO_TAR + "/bar") // '/foo/tar/bar'
+public class BarController {
+
+}
+```
+
+
+
